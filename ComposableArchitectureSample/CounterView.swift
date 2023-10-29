@@ -35,6 +35,22 @@ struct CounterView: View {
                     .background(Color.black.opacity(0.3))
                     .cornerRadius(10)
                 }
+                Button(action: { viewStore.send(.factButtonTapped) }, label: {
+                    Text("Fact")
+                        .font(.largeTitle)
+                        .padding()
+                        .background(Color.black.opacity(0.3))
+                        .cornerRadius(10)
+                })
+
+                if viewStore.isLoading {
+                    ProgressView()
+                } else if let fact = viewStore.fact {
+                    Text(fact)
+                        .font(.largeTitle)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                }
             }
         }
     }
