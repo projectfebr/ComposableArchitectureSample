@@ -12,6 +12,7 @@
 		1F4710B52AEEC1AC00F66128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4710B42AEEC1AC00F66128 /* Assets.xcassets */; };
 		1F4710B82AEEC1AC00F66128 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4710B72AEEC1AC00F66128 /* Preview Assets.xcassets */; };
 		1F4710C02AEEC5B800F66128 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1F4710BF2AEEC5B800F66128 /* ComposableArchitecture */; };
+		1F4710C22AEEC64A00F66128 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4710C12AEEC64A00F66128 /* CounterFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1F4710B22AEEC1AB00F66128 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F4710B42AEEC1AC00F66128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F4710B72AEEC1AC00F66128 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F4710C12AEEC64A00F66128 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				1F4710B02AEEC1AB00F66128 /* ComposableArchitectureSampleApp.swift */,
+				1F4710C12AEEC64A00F66128 /* CounterFeature.swift */,
 				1F4710B22AEEC1AB00F66128 /* ContentView.swift */,
 				1F4710B42AEEC1AC00F66128 /* Assets.xcassets */,
 				1F4710B62AEEC1AC00F66128 /* Preview Content */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4710C22AEEC64A00F66128 /* CounterFeature.swift in Sources */,
 				1F4710B32AEEC1AB00F66128 /* ContentView.swift in Sources */,
 				1F4710B12AEEC1AB00F66128 /* ComposableArchitectureSampleApp.swift in Sources */,
 			);
