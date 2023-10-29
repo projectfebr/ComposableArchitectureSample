@@ -14,6 +14,7 @@ struct ComposableArchitectureSampleApp: App {
         initialState: CounterFeature.State(),
         reducer: {
             CounterFeature()
+                ._printChanges()
         }
     )
     
