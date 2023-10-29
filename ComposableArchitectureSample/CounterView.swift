@@ -42,11 +42,6 @@ struct CounterView: View {
 
 #Preview {
     CounterView(
-        store: Store(
-            initialState: CounterFeature.State(),
-            reducer: {
-                CounterFeature()
-            }
-        )
+        store: ComposableArchitectureSampleApp.store
     )
 }
