@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C1FC1142-1336-43EE-AD1A-E6CBFD206499"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37A132D9-6948-4642-A4E7-48BA7A2CDAB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ComposableArchitectureSampleTests/CounterFeatureTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "testNumberFact()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "37A132D9-6948-4642-A4E7-48BA7A2CDAB9 - cabb59d5a59e1571"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ComposableArchitectureSampleTests.CounterFeatureTests.testNumberFact() async -&gt; ()"
+                  moduleName = "ComposableArchitectureSampleTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr/iOS/ComposableArchitectureSample/ComposableArchitectureSampleTests/CounterFeatureTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "37A132D9-6948-4642-A4E7-48BA7A2CDAB9 - 2ad6de5c7813de07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ComposableArchitectureSampleTests.CounterFeatureTests.testNumberFact() async -&gt; ()"
+                  moduleName = "ComposableArchitectureSampleTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr/iOS/ComposableArchitectureSample/ComposableArchitectureSampleTests/CounterFeatureTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

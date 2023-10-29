@@ -15,6 +15,8 @@
 		1F4710C42AEEC7F100F66128 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4710C32AEEC7F100F66128 /* CounterView.swift */; };
 		1F4710D62AEF08A200F66128 /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4710D52AEF08A200F66128 /* CounterFeatureTests.swift */; };
 		1F4710D72AEF09CA00F66128 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4710C12AEEC64A00F66128 /* CounterFeature.swift */; };
+		1F4710D92AEF15EA00F66128 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4710D82AEF15EA00F66128 /* NumberFactClient.swift */; };
+		1F4710DA2AEF192C00F66128 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4710D82AEF15EA00F66128 /* NumberFactClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 		1F4710C52AEED85100F66128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1F4710CC2AEF088800F66128 /* ComposableArchitectureSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComposableArchitectureSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4710D52AEF08A200F66128 /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
+		1F4710D82AEF15EA00F66128 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 				1F4710C32AEEC7F100F66128 /* CounterView.swift */,
 				1F4710B42AEEC1AC00F66128 /* Assets.xcassets */,
 				1F4710B62AEEC1AC00F66128 /* Preview Content */,
+				1F4710D82AEF15EA00F66128 /* NumberFactClient.swift */,
 			);
 			path = ComposableArchitectureSample;
 			sourceTree = "<group>";
@@ -214,6 +218,7 @@
 				1F4710C22AEEC64A00F66128 /* CounterFeature.swift in Sources */,
 				1F4710B12AEEC1AB00F66128 /* ComposableArchitectureSampleApp.swift in Sources */,
 				1F4710C42AEEC7F100F66128 /* CounterView.swift in Sources */,
+				1F4710D92AEF15EA00F66128 /* NumberFactClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4710DA2AEF192C00F66128 /* NumberFactClient.swift in Sources */,
 				1F4710D72AEF09CA00F66128 /* CounterFeature.swift in Sources */,
 				1F4710D62AEF08A200F66128 /* CounterFeatureTests.swift in Sources */,
 			);
